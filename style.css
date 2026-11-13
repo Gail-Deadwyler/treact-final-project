@@ -373,7 +373,6 @@ FEATURES ↓
   align-items: center;
 }
 
-
 .section__para {
   font-size: 18px;
   font-weight: 500;
@@ -533,6 +532,41 @@ STEPS ↓
 .steps__description {
   padding: 32px 0px;
   padding-left: 64px;
+}
+
+.step {
+  display: flex;
+  align-items: flex-start;
+  margin-top: 32px;
+}
+
+.step__number {
+  font-size: 36px;
+  color: #cbd5e0;
+  font-weight: 600;
+  line-height: 1;
+}
+
+.step__description {
+  display: flex;
+  flex-direction: column;
+  margin-left: 24px;
+  max-width: 320px;
+}
+
+.step__title {
+  font-size: 20px;
+  font-weight: 600;
+  color: #243e63;
+  line-height: 1;
+}
+
+.step__para {
+  font-size: 14px;
+  font-weight: 500;
+  color: #718096;
+  line-height: 2;
+  margin-top: 12px;
 }
 
 /* 
