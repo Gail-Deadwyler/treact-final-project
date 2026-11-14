@@ -629,6 +629,10 @@ VALUES ↓
   background-color: #9ae6b4;
 }
 
+.value:nth-of-type(2) .value__img--wrapper {
+  background-color: #feb2b2;
+}
+
 .value__img--wrapper {
   border-radius: 50%;
   display: flex;
