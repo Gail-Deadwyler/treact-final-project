@@ -718,11 +718,13 @@ PRICING ↓
 .plan:nth-child(1) .plan__stripe,
 .plan:nth-child(1) .plan__button {
   color: #f7fafc;
-  background: linear-gradient(
-    115deg,
-    rgb(56, 178, 172) 0%,
-    rgb(129, 230, 217) 100%
-  );
+  background: linear-gradient(115deg, #38b2ac 0%, #81e6d9 100%);
+}
+
+.plan:nth-child(3) .plan__stripe,
+.plan:nth-child(3) .plan__button {
+  color: #f7fafc;
+  background: linear-gradient(115deg, #f56565 0%, #feb2b2 100%);
 }
 
 .plan__stripe {
@@ -827,6 +829,11 @@ PRICING ↓
   padding-bottom: 2rem;
 }
 
+.plan:nth-child(2) .plan__button {
+  color: #6415ff;
+  background-color: #f7fafc;
+}
+
 .plan__button {
   border-radius: 0.25rem;
   background-color: #6415ff;
@@ -850,6 +857,17 @@ PRICING ↓
     rgba(0, 0, 0, 0) 0px 0px 0px 0px,
     rgba(0, 0, 0, 0.1) 0px 20px 25px -5px,
     rgba(0, 0, 0, 0.04) 0px 10px 10px -5px;
+}
+
+.plans__blob {
+  z-index: -10;
+  position: absolute;
+  left: 0px;
+  bottom: 0px;
+  transform: translateX(-50%) translateY(50%) scaleX(1) scaleY(1);
+  height: 256px;
+  width: 256px;
+  opacity: 0.25;
 }
 
 /* 
