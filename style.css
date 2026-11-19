@@ -1047,6 +1047,28 @@ START / CALL TO ACTION ↓
   overflow: hidden;
 }
 
+.start__blob--1 {
+  position: absolute;
+  bottom: 0px;
+  left: 0px;
+  height: 20rem;
+  width: 20rem;
+  transform: translate(-5rem, 8rem);
+  color: #5011cc;
+  opacity: 0.5;
+}
+
+.start__blob--2 {
+  position: absolute;
+  top: 0px;
+  right: 0px;
+  height: 20rem;
+  width: 20rem;
+  transform: translate(5rem, -16rem);
+  color: #5011cc;
+  opacity: 0.5;
+}
+
 /* 
 
 FOOTER ↓
