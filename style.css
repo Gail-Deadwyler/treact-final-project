@@ -1232,6 +1232,14 @@ footer {
   opacity: 1;
 }
 
+.footer__divider {
+  background-color: #742cff;
+  height: 2px;
+  width: 100%;
+  margin: 64px 0px;
+}
+
+
 
 /* 
 
