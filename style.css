@@ -1262,6 +1262,11 @@ footer {
   letter-spacing: 0.05em;
 }
 
+.footer__copyright {
+  color: #cbd5e0;
+  font-weight: 500;
+}
+
 /* 
 
 MOBILE RESPONSIVENESS ↓
