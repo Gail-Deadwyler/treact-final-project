@@ -1267,6 +1267,33 @@ footer {
   font-weight: 500;
 }
 
+.footer__socials {
+  display: flex;
+  align-items: center;
+  margin-left: -16px;
+}
+
+.footer__social--link:hover {
+  background-color: #cbd5e0;
+}
+
+.footer__social--link {
+  display: flex;
+  justify-content: center;
+  background: #f7fafc;
+  margin-left: 16px;
+  padding: 8px;
+  border-radius: 50%;
+  z-index: 2;
+  cursor: pointer;
+  transition: all 300ms ease;
+}
+
+.footer__social--link svg {
+  height: 16px;
+  width: 16px;
+}
+
 /* 
 
 MOBILE RESPONSIVENESS ↓
